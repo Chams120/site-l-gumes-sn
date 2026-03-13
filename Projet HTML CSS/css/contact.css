@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+nav{
+    gap: 1000px;
+}
+ul{
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    font-size: x-large;
+}
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    margin: 10px 0;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+@media (max-width:768px)

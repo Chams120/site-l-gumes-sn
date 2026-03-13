@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+nav{
+    gap: 1000px;
+}
+ul{
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    font-size: x-large;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 20px;
+}
+.pommedeterre{
+    width:120px ;
+    display: grid;
+}
+.onions{
+    width:120px ;
+    display: grid;
+}
+.tomates{
+    width:120px ;
+    display: grid;
+}
+.choux{
+    width:120px;
+    display: grid;
+}
+.aubergines{
+    width:120px ;
+    display: grid;
+}
+.mais{
+    width:120px ;
+    display: grid;
+}
+.titre{
+    justify-content: center;
+    background: -moz-linear-gradient(to right,to left);
+    color: transparent;
+}
+.fermier{
+    background-image: url() ;
+}
+@media (max-width:768px)

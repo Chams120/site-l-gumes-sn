@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+nav{
+    gap: 1000px;
+}
+ul{
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    font-size: x-large;
+}
+.hero{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: xx-large;
+    height: 100px;
+}
+.pommesdeterre{
+    margin-left: 20px;
+    height: 120px;
+    display: flex;
+}
+.btndetail{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: greenyellow;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+}
+.aubergines{
+    margin-left: 20px;
+    height: 120px;
+    display: flex;
+}
+.tomates{
+    margin-left: 20px;
+    height: 120px;
+    display: flex;
+}
+.onions{
+    margin-left: 20px;
+    height: 120px;
+    display: flex;
+}
+.mais{
+    margin-left: 20px;
+    height: 120px;
+    display: flex;
+}
+.choux{
+    margin-left: 20px;
+    height: 120px;
+    display: flex;
+}
+section{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width:768px)
